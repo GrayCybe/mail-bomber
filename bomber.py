@@ -22,7 +22,7 @@ if smtp == 'gmail':
 		server = smtplib.SMTP('smtp.gmail.com',587)
 		server.starttls()
 
-		email     = raw_input("Enter Your Email : ")
+		email     = raw_input("onemindsetnature@gmail.com : ")
 		password  = getpass.getpass("Enter your Password:")
 
 		if not  email  and not password:
